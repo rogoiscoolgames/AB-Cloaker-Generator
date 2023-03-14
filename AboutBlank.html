@@ -1,0 +1,91 @@
+<html>
+      <link
+    rel="icon"
+    type="image/png"
+    href="https://lh6.googleusercontent.com/Tt9ml1WdQKsB1u2bJqD_Vb_nydlX994CJtvup_QEjvIYXoI7mjXEyS-oCShTH2KtMDlK4IQEzbEe7rp6i_Q0eNI=w16383"
+  />
+
+    <title>My apps</title>
+    <p class="title">Just Another </p>
+    <p class="Cloaker">Cloaker</p>
+
+  <head>
+  </head>
+  <button class="btn1"onclick="openGame()
+">Open Game</button>
+<style>
+    body
+    {
+        background-image:linear-gradient(purple, #Bc8f8f, #D8bfd8,#Deb887);
+    }
+    
+   
+    .btn1
+    {        
+        transition-duration:0.6s;
+        position:relative;
+        width:300px;
+        height:150px;
+        background-color:#f9989f;
+        font-size:25px;
+        color:#faf096;
+        cursor:pointer;
+        border-radius:15%;
+        top:15%;
+        left:39%;
+        
+        
+    }
+    .Cloaker
+    {
+        background-image: linear-gradient(to right, #f9989f,#fccb8f, #faf096);
+        border: 0px;
+        border-radius: 8px;
+        padding: 2px;
+        color:black;
+        top: %;
+        position: relative;
+        font-size:35px;
+        text-align:center;
+        margin-left:548;
+        margin-right:548;
+        text-decoration:underline;
+        color:black;
+    }
+    .title
+    {
+        color:white;
+        position: relative;
+        font-size: 20;
+        font-size:35px;
+        text-align:center;
+        word-spacing: 1px;
+        top: 5%;
+        
+        
+    }
+    .btn1:hover
+    {
+        background-color:magenta;
+        color:#100;
+    }
+    </style>
+    <body>
+  <script>
+      
+    function openGame() {
+      var win = window.open()   
+      var url = "https://geographytips.org/" 
+      var iframe = win.document.createElement('iframe')
+      iframe.style.width = "100%";
+      iframe.style.height = "100%"
+      iframe.style.border = "none";
+      iframe.src = url
+      win.document.body.appendChild(iframe)
+      document.location = "https://google.com";
+        
+    }
+
+  </script>
+</body>
+</html>
