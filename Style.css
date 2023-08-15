@@ -1,0 +1,50 @@
+body{
+    background-image:linear-gradient(purple, #Bc8f8f, #D8bfd8,#Deb887);
+}
+
+
+.btn1{        
+    transition-duration:0.6s;
+    position:relative;
+    width:300px;
+    height:150px;
+    background-color:#f9989f;
+    font-size:25px;
+    color:#faf096;
+    cursor:pointer;
+    border-radius:15%;
+    top:15%;
+    left:39%;
+    
+    
+}
+.Cloaker{
+    background-image: linear-gradient(to right, #f9989f,#fccb8f, #faf096);
+    border: 0px;
+    border-radius: 8px;
+    padding: 2px;
+    color:black;
+    position: relative;
+    font-size: 35px;
+    text-align:center;
+    margin-left: 548px;
+    margin-right: 548;
+    text-decoration:underline;
+    color:black;
+}
+.title{
+    color:white;
+    position: relative;
+    font-size: 20;
+    font-size:35px;
+    text-align:center;
+    word-spacing: 1px;
+    top: 5%;
+    
+    
+}
+.btn1:hover
+{
+    background-color:magenta;
+    color:#100;
+}
